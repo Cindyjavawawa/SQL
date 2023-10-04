@@ -43,3 +43,18 @@ It will show as following
 ```
 Docker version 24.0.6, build ed223bc
 ```
+# SQL  Basic knowledge
+Database： a container to keep structured data
+Database Management System(DBMS): a database software to create or manipulate data
+Schema: a logical structure of a database, recording database info and table layout info.
+
+Column: a field in a table
+Row: a record in a table
+## A table consists of one or more columns. 
+## A table stores data by rows.
+
+SQL (Structured Query Language): a language specifically used to communicate with databases.
+MySQL: One of the DBMS based on Client-server software 
+Relation: MySQL < DBMS based on Client-server software (Oracle, Microsoft SQL Server) < DBMS
+## SQL not used in specified a DBMS = almost all DBMS support SQL
+## SQL syntax is not quite the same between any two DBMSs.
