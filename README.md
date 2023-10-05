@@ -53,6 +53,8 @@ Row: a record in a table
 ## A table consists of one or more columns. 
 ## A table stores data by rows.
 
+Connect 
+
 SQL (Structured Query Language): a language specifically used to communicate with databases.
 MySQL: One of the DBMS based on Client-server software 
 Relation: MySQL < DBMS based on Client-server software (Oracle, Microsoft SQL Server) < DBMS
