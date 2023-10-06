@@ -53,10 +53,37 @@ Row: a record in a table
 ## A table consists of one or more columns. 
 ## A table stores data by rows.
 
-Connect 
-
 SQL (Structured Query Language): a language specifically used to communicate with databases.
 MySQL: One of the DBMS based on Client-server software 
 Relation: MySQL < DBMS based on Client-server software (Oracle, Microsoft SQL Server) < DBMS
 ## SQL not used in specified a DBMS = almost all DBMS support SQL
 ## SQL syntax is not quite the same between any two DBMSs.
+
+---------------------
+
+# IP Lookup
+Mac:  # ifconfig - eno - inet
+Linux: # ifconfig | grep "inet" 
+Windows: ipconfig - IPv4 Address
+
+# Steps:
+Connecting MySQL needs: IP + Port + User_name + Password
+Default Port: 3306
+
+# Lookup all open ports in Linux
+# lsof -i -P -n
+# lsof -i
+-i: list all files
+-P: Forbid Port numbers to transform to Port names, such as forbidding 3306 transforms to MySQL
+-n: Forbid IP to transform to hostname (This is not available by default)
+
+
+Select database: # USE database1;
+Show databases/table/field : 
+# SHOW Databases;
+# SHOW Table
+# SHOW COLUMNS FROM 
+
+
+
+
